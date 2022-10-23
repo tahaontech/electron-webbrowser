@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="./styles.css" rel="stylesheet">
+   
+    <title>Browser Application</title>
+  </head>
+  <body>
+    <div class="top">
+      <button onclick="goBack()"><</button>
+      <button onclick="goHome()">Home</button>
+      <button onclick="goForward()">></button>
+      <input id="url">
+      <button onclick="go()">Go</button>
+    </div>
+    <webview id="mywebview" src="https://google.com"></webview>
+    <script src="./script.js"></script>
+  </body>
+</html>
